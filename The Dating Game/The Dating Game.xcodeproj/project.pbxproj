@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC645EA628273ECB003134EE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC645EA528273ECB003134EE /* QuestionViewController.swift */; };
+		EC645EA828273EE2003134EE /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC645EA728273EE2003134EE /* ResultsViewController.swift */; };
+		EC645EAA2827409A003134EE /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC645EA92827409A003134EE /* QuestionData.swift */; };
+		EC98BE34280E550C00489C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE33280E550C00489C15 /* AppDelegate.swift */; };
+		EC98BE36280E550C00489C15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE35280E550C00489C15 /* SceneDelegate.swift */; };
+		EC98BE38280E550C00489C15 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE37280E550C00489C15 /* IntroductionViewController.swift */; };
+		EC98BE3B280E550C00489C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98BE39280E550C00489C15 /* Main.storyboard */; };
+		EC98BE3D280E550D00489C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC98BE3C280E550D00489C15 /* Assets.xcassets */; };
+		EC98BE40280E550D00489C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98BE3E280E550D00489C15 /* LaunchScreen.storyboard */; };
+		EC98BE4B280E550D00489C15 /* The_Dating_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE4A280E550D00489C15 /* The_Dating_GameTests.swift */; };
+		EC98BE56280E550D00489C15 /* The_Dating_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE55280E550D00489C15 /* The_Dating_GameUITests.swift */; };
+		ECD28223281B342800AF0901 /* Tutorial.MOV in Resources */ = {isa = PBXBuildFile; fileRef = ECD28222281B342800AF0901 /* Tutorial.MOV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC98BE47280E550D00489C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC98BE28280E550C00489C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC98BE2F280E550C00489C15;
+			remoteInfo = "The Dating Game";
+		};
+		EC98BE52280E550D00489C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC98BE28280E550C00489C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC98BE2F280E550C00489C15;
+			remoteInfo = "The Dating Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC645EA528273ECB003134EE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		EC645EA728273EE2003134EE /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		EC645EA92827409A003134EE /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		EC98BE30280E550C00489C15 /* The Dating Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Dating Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98BE33280E550C00489C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC98BE35280E550C00489C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC98BE37280E550C00489C15 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		EC98BE3A280E550C00489C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC98BE3C280E550D00489C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC98BE3F280E550D00489C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC98BE41280E550D00489C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC98BE46280E550D00489C15 /* The Dating GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Dating GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98BE4A280E550D00489C15 /* The_Dating_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Dating_GameTests.swift; sourceTree = "<group>"; };
+		EC98BE4C280E550D00489C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC98BE51280E550D00489C15 /* The Dating GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Dating GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98BE55280E550D00489C15 /* The_Dating_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Dating_GameUITests.swift; sourceTree = "<group>"; };
+		EC98BE57280E550D00489C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD28222281B342800AF0901 /* Tutorial.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Tutorial.MOV; path = ../../../../Downloads/Tutorial.MOV; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC98BE2D280E550C00489C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98BE43280E550D00489C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98BE4E280E550D00489C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC98BE27280E550B00489C15 = {
+			isa = PBXGroup;
+			children = (
+				ECD28222281B342800AF0901 /* Tutorial.MOV */,
+				EC98BE32280E550C00489C15 /* The Dating Game */,
+				EC98BE49280E550D00489C15 /* The Dating GameTests */,
+				EC98BE54280E550D00489C15 /* The Dating GameUITests */,
+				EC98BE31280E550C00489C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC98BE31280E550C00489C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC98BE30280E550C00489C15 /* The Dating Game.app */,
+				EC98BE46280E550D00489C15 /* The Dating GameTests.xctest */,
+				EC98BE51280E550D00489C15 /* The Dating GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC98BE32280E550C00489C15 /* The Dating Game */ = {
+			isa = PBXGroup;
+			children = (
+				EC98BE33280E550C00489C15 /* AppDelegate.swift */,
+				EC98BE35280E550C00489C15 /* SceneDelegate.swift */,
+				EC98BE37280E550C00489C15 /* IntroductionViewController.swift */,
+				EC645EA528273ECB003134EE /* QuestionViewController.swift */,
+				EC645EA728273EE2003134EE /* ResultsViewController.swift */,
+				EC645EA92827409A003134EE /* QuestionData.swift */,
+				EC98BE39280E550C00489C15 /* Main.storyboard */,
+				EC98BE3C280E550D00489C15 /* Assets.xcassets */,
+				EC98BE3E280E550D00489C15 /* LaunchScreen.storyboard */,
+				EC98BE41280E550D00489C15 /* Info.plist */,
+			);
+			path = "The Dating Game";
+			sourceTree = "<group>";
+		};
+		EC98BE49280E550D00489C15 /* The Dating GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC98BE4A280E550D00489C15 /* The_Dating_GameTests.swift */,
+				EC98BE4C280E550D00489C15 /* Info.plist */,
+			);
+			path = "The Dating GameTests";
+			sourceTree = "<group>";
+		};
+		EC98BE54280E550D00489C15 /* The Dating GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC98BE55280E550D00489C15 /* The_Dating_GameUITests.swift */,
+				EC98BE57280E550D00489C15 /* Info.plist */,
+			);
+			path = "The Dating GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC98BE2F280E550C00489C15 /* The Dating Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98BE5A280E550D00489C15 /* Build configuration list for PBXNativeTarget "The Dating Game" */;
+			buildPhases = (
+				EC98BE2C280E550C00489C15 /* Sources */,
+				EC98BE2D280E550C00489C15 /* Frameworks */,
+				EC98BE2E280E550C00489C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Dating Game";
+			productName = "The Dating Game";
+			productReference = EC98BE30280E550C00489C15 /* The Dating Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC98BE45280E550D00489C15 /* The Dating GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98BE5D280E550D00489C15 /* Build configuration list for PBXNativeTarget "The Dating GameTests" */;
+			buildPhases = (
+				EC98BE42280E550D00489C15 /* Sources */,
+				EC98BE43280E550D00489C15 /* Frameworks */,
+				EC98BE44280E550D00489C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC98BE48280E550D00489C15 /* PBXTargetDependency */,
+			);
+			name = "The Dating GameTests";
+			productName = "The Dating GameTests";
+			productReference = EC98BE46280E550D00489C15 /* The Dating GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC98BE50280E550D00489C15 /* The Dating GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98BE60280E550D00489C15 /* Build configuration list for PBXNativeTarget "The Dating GameUITests" */;
+			buildPhases = (
+				EC98BE4D280E550D00489C15 /* Sources */,
+				EC98BE4E280E550D00489C15 /* Frameworks */,
+				EC98BE4F280E550D00489C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC98BE53280E550D00489C15 /* PBXTargetDependency */,
+			);
+			name = "The Dating GameUITests";
+			productName = "The Dating GameUITests";
+			productReference = EC98BE51280E550D00489C15 /* The Dating GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC98BE28280E550C00489C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EC98BE2F280E550C00489C15 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EC98BE45280E550D00489C15 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EC98BE2F280E550C00489C15;
+					};
+					EC98BE50280E550D00489C15 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EC98BE2F280E550C00489C15;
+					};
+				};
+			};
+			buildConfigurationList = EC98BE2B280E550C00489C15 /* Build configuration list for PBXProject "The Dating Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC98BE27280E550B00489C15;
+			productRefGroup = EC98BE31280E550C00489C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC98BE2F280E550C00489C15 /* The Dating Game */,
+				EC98BE45280E550D00489C15 /* The Dating GameTests */,
+				EC98BE50280E550D00489C15 /* The Dating GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC98BE2E280E550C00489C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98BE40280E550D00489C15 /* LaunchScreen.storyboard in Resources */,
+				ECD28223281B342800AF0901 /* Tutorial.MOV in Resources */,
+				EC98BE3D280E550D00489C15 /* Assets.xcassets in Resources */,
+				EC98BE3B280E550C00489C15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98BE44280E550D00489C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98BE4F280E550D00489C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC98BE2C280E550C00489C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98BE38280E550C00489C15 /* IntroductionViewController.swift in Sources */,
+				EC98BE34280E550C00489C15 /* AppDelegate.swift in Sources */,
+				EC645EA828273EE2003134EE /* ResultsViewController.swift in Sources */,
+				EC98BE36280E550C00489C15 /* SceneDelegate.swift in Sources */,
+				EC645EA628273ECB003134EE /* QuestionViewController.swift in Sources */,
+				EC645EAA2827409A003134EE /* QuestionData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98BE42280E550D00489C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98BE4B280E550D00489C15 /* The_Dating_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98BE4D280E550D00489C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98BE56280E550D00489C15 /* The_Dating_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC98BE48280E550D00489C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC98BE2F280E550C00489C15 /* The Dating Game */;
+			targetProxy = EC98BE47280E550D00489C15 /* PBXContainerItemProxy */;
+		};
+		EC98BE53280E550D00489C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC98BE2F280E550C00489C15 /* The Dating Game */;
+			targetProxy = EC98BE52280E550D00489C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC98BE39280E550C00489C15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC98BE3A280E550C00489C15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC98BE3E280E550D00489C15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC98BE3F280E550D00489C15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC98BE58280E550D00489C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC98BE59280E550D00489C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC98BE5B280E550D00489C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5K59JM3WK;
+				INFOPLIST_FILE = "The Dating Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zoe.The-Dating-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC98BE5C280E550D00489C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5K59JM3WK;
+				INFOPLIST_FILE = "The Dating Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zoe.The-Dating-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC98BE5E280E550D00489C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5K59JM3WK;
+				INFOPLIST_FILE = "The Dating GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zoe.The-Dating-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Dating Game.app/The Dating Game";
+			};
+			name = Debug;
+		};
+		EC98BE5F280E550D00489C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5K59JM3WK;
+				INFOPLIST_FILE = "The Dating GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zoe.The-Dating-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Dating Game.app/The Dating Game";
+			};
+			name = Release;
+		};
+		EC98BE61280E550D00489C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5K59JM3WK;
+				INFOPLIST_FILE = "The Dating GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zoe.The-Dating-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Dating Game";
+			};
+			name = Debug;
+		};
+		EC98BE62280E550D00489C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5K59JM3WK;
+				INFOPLIST_FILE = "The Dating GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zoe.The-Dating-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Dating Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC98BE2B280E550C00489C15 /* Build configuration list for PBXProject "The Dating Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98BE58280E550D00489C15 /* Debug */,
+				EC98BE59280E550D00489C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC98BE5A280E550D00489C15 /* Build configuration list for PBXNativeTarget "The Dating Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98BE5B280E550D00489C15 /* Debug */,
+				EC98BE5C280E550D00489C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC98BE5D280E550D00489C15 /* Build configuration list for PBXNativeTarget "The Dating GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98BE5E280E550D00489C15 /* Debug */,
+				EC98BE5F280E550D00489C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC98BE60280E550D00489C15 /* Build configuration list for PBXNativeTarget "The Dating GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98BE61280E550D00489C15 /* Debug */,
+				EC98BE62280E550D00489C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC98BE28280E550C00489C15 /* Project object */;
+}

@@ -19,7 +19,7 @@ class QuestionViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     
 
-    
+    //Array of 48 questions and each answer choices
     var questions: [Question] = [
 
         //1
@@ -520,14 +520,17 @@ class QuestionViewController: UIViewController {
         //Changes title depending on the question
         navigationItem.title = "Question #\(questionIndex + 1)"
         
+        //Finds the current question and answers
         let currentQuestion = questions[questionIndex]
         let currentAnswers = currentQuestion.answers
     
+        //Sets the label text to the current question
         questionLabel.text = currentQuestion.text
         
         updateSingleStack(using: currentAnswers)
     }
     
+    //Function to set the text for the answer button
     func updateSingleStack(using answers: [Answer]) {
         //.normal when the button is sitting there show text
         choice1.setTitle(answers[0].text, for: .normal)
@@ -541,7 +544,7 @@ class QuestionViewController: UIViewController {
     @IBAction func choiceButtonPressed(_ sender: UIButton) {
         let currentAnswers = questions[questionIndex].answers
  
-        //After answer is chosen it appends it to array
+        //After answer is chosen it adds it to the array currentAnswers
         switch sender {
         case choice1:
             answersChosen.append(currentAnswers[0])
@@ -562,6 +565,7 @@ class QuestionViewController: UIViewController {
         nextQuestion()
     }
     
+    //Function to move on to the next question
     func nextQuestion() {
         //Increments question Index
         questionIndex += 1
@@ -570,10 +574,9 @@ class QuestionViewController: UIViewController {
         //Then changes the question
         if questionIndex < questions.count {
             updateUI()
-        //If there is no more questions go to end screen
-            
         }
         
+        //If there is no more questions go to end screen
         if range == questionIndex {
             performSegue(withIdentifier: "ResultsSegue", sender: nil)
         }
@@ -588,15 +591,5 @@ class QuestionViewController: UIViewController {
         }
     }
     
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

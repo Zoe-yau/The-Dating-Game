@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC02FC92282898720093E8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02FC91282898720093E8BC /* Assets.xcassets */; };
+		EC02FC9A28289EA50093E8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02FC9928289EA50093E8BC /* AppDelegate.swift */; };
+		EC02FC9E28289F5B0093E8BC /* Tutorial.mov in Resources */ = {isa = PBXBuildFile; fileRef = EC02FC9D28289F5B0093E8BC /* Tutorial.mov */; };
 		EC645EA628273ECB003134EE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC645EA528273ECB003134EE /* QuestionViewController.swift */; };
 		EC645EA828273EE2003134EE /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC645EA728273EE2003134EE /* ResultsViewController.swift */; };
 		EC645EAA2827409A003134EE /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC645EA92827409A003134EE /* QuestionData.swift */; };
-		EC98BE34280E550C00489C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE33280E550C00489C15 /* AppDelegate.swift */; };
 		EC98BE36280E550C00489C15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE35280E550C00489C15 /* SceneDelegate.swift */; };
 		EC98BE38280E550C00489C15 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE37280E550C00489C15 /* IntroductionViewController.swift */; };
 		EC98BE3B280E550C00489C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98BE39280E550C00489C15 /* Main.storyboard */; };
-		EC98BE3D280E550D00489C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC98BE3C280E550D00489C15 /* Assets.xcassets */; };
 		EC98BE40280E550D00489C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98BE3E280E550D00489C15 /* LaunchScreen.storyboard */; };
 		EC98BE4B280E550D00489C15 /* The_Dating_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE4A280E550D00489C15 /* The_Dating_GameTests.swift */; };
 		EC98BE56280E550D00489C15 /* The_Dating_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98BE55280E550D00489C15 /* The_Dating_GameUITests.swift */; };
-		ECD28223281B342800AF0901 /* Tutorial.MOV in Resources */ = {isa = PBXBuildFile; fileRef = ECD28222281B342800AF0901 /* Tutorial.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,15 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC02FC91282898720093E8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		EC02FC9928289EA50093E8BC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Desktop - Ivan’s MacBook Air/Swift Labs/Projects/IBBasics/IBBasics/AppDelegate.swift"; sourceTree = "<group>"; };
+		EC02FC9D28289F5B0093E8BC /* Tutorial.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Tutorial.mov; path = ../../../../Downloads/Tutorial.mov; sourceTree = "<group>"; };
 		EC645EA528273ECB003134EE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		EC645EA728273EE2003134EE /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		EC645EA92827409A003134EE /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 		EC98BE30280E550C00489C15 /* The Dating Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Dating Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC98BE33280E550C00489C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC98BE35280E550C00489C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC98BE37280E550C00489C15 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		EC98BE3A280E550C00489C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC98BE3C280E550D00489C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC98BE3F280E550D00489C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC98BE41280E550D00489C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC98BE46280E550D00489C15 /* The Dating GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Dating GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +57,6 @@
 		EC98BE51280E550D00489C15 /* The Dating GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Dating GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC98BE55280E550D00489C15 /* The_Dating_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Dating_GameUITests.swift; sourceTree = "<group>"; };
 		EC98BE57280E550D00489C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECD28222281B342800AF0901 /* Tutorial.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Tutorial.MOV; path = ../../../../Downloads/Tutorial.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		EC98BE27280E550B00489C15 = {
 			isa = PBXGroup;
 			children = (
-				ECD28222281B342800AF0901 /* Tutorial.MOV */,
+				EC02FC9D28289F5B0093E8BC /* Tutorial.mov */,
 				EC98BE32280E550C00489C15 /* The Dating Game */,
 				EC98BE49280E550D00489C15 /* The Dating GameTests */,
 				EC98BE54280E550D00489C15 /* The Dating GameUITests */,
@@ -108,16 +108,16 @@
 		EC98BE32280E550C00489C15 /* The Dating Game */ = {
 			isa = PBXGroup;
 			children = (
-				EC98BE33280E550C00489C15 /* AppDelegate.swift */,
+				EC02FC9928289EA50093E8BC /* AppDelegate.swift */,
 				EC98BE35280E550C00489C15 /* SceneDelegate.swift */,
 				EC98BE37280E550C00489C15 /* IntroductionViewController.swift */,
 				EC645EA528273ECB003134EE /* QuestionViewController.swift */,
 				EC645EA728273EE2003134EE /* ResultsViewController.swift */,
 				EC645EA92827409A003134EE /* QuestionData.swift */,
 				EC98BE39280E550C00489C15 /* Main.storyboard */,
-				EC98BE3C280E550D00489C15 /* Assets.xcassets */,
 				EC98BE3E280E550D00489C15 /* LaunchScreen.storyboard */,
 				EC98BE41280E550D00489C15 /* Info.plist */,
+				EC02FC91282898720093E8BC /* Assets.xcassets */,
 			);
 			path = "The Dating Game";
 			sourceTree = "<group>";
@@ -243,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC02FC9E28289F5B0093E8BC /* Tutorial.mov in Resources */,
 				EC98BE40280E550D00489C15 /* LaunchScreen.storyboard in Resources */,
-				ECD28223281B342800AF0901 /* Tutorial.MOV in Resources */,
-				EC98BE3D280E550D00489C15 /* Assets.xcassets in Resources */,
+				EC02FC92282898720093E8BC /* Assets.xcassets in Resources */,
 				EC98BE3B280E550C00489C15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC98BE38280E550C00489C15 /* IntroductionViewController.swift in Sources */,
-				EC98BE34280E550C00489C15 /* AppDelegate.swift in Sources */,
 				EC645EA828273EE2003134EE /* ResultsViewController.swift in Sources */,
 				EC98BE36280E550C00489C15 /* SceneDelegate.swift in Sources */,
+				EC02FC9A28289EA50093E8BC /* AppDelegate.swift in Sources */,
 				EC645EA628273ECB003134EE /* QuestionViewController.swift in Sources */,
 				EC645EAA2827409A003134EE /* QuestionData.swift in Sources */,
 			);
